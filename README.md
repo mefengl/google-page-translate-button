@@ -7,7 +7,7 @@
 <a href="https://greasyfork.org/zh-CN/scripts/452478/stats"> <img src="https://img.shields.io/greasyfork/dd/452478"/> </a>
 <a href="https://greasyfork.org/zh-CN/scripts/452478/stats"> <img src="https://img.shields.io/greasyfork/dt/452478"/> </a>
 
- Add a button to the page that can be translated with one click
+ 一个按钮的事，一点都不费事
 
 ## 🍓 右上角翻译按钮，会自动展开
 

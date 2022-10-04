@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         谷歌网页翻译按钮
 // @namespace    https://github.com/mefengl
-// @version      1.1.1
+// @version      1.1.2
 // @description  一个按钮的事，一点都不费事
 // @author       mefengl
 // @match        http://*/*
 // @match        https://*/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=translate.google.com
 // @require      https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js
 // @grant        none
 // ==/UserScript==
@@ -47,8 +47,8 @@
             'opacity': '0.8',
             'border': 'none',
             'border-radius': '4px',
-            'padding': '8px 16px',
-            'font-size': '20px',
+            'padding': '10px 16px',
+            'font-size': '18px',
             'cursor': 'pointer'
         });
         // hover to show, and hide when not hover

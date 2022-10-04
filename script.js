@@ -21,8 +21,6 @@
         origin = origin + '.translate.goog';
 
         let pathname = window.location.pathname;
-        // change '.' in pathname to '-'
-        pathname = pathname.replace(/\./g, '-');
         // append '?_x_tr_sl=auto&_x_tr_tl=zh-CN' to pathname
         pathname = pathname + '?_x_tr_sl=auto&_x_tr_tl=zh-CN';
 

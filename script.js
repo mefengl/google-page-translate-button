@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      1.2.0
-// @description  一个按钮的事，一点都不费事
+// @version      1.2.4
+// @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl
 // @match        http://*/*
 // @match        https://*/*
@@ -36,11 +36,12 @@
             window.location.href = url;
         });
         // set button style
+        const hide_right = "-120px";
         $button.css({
             'position': 'fixed',
             'width': '140px',
             'top': '120px',
-            'right': '-110px',
+            'right': hide_right,
             'z-index': '999999',
             'background-color': '#4285f4',
             'color': '#fff',
@@ -58,7 +59,7 @@
             }, 200);
         }, function () {
             $(this).stop().animate({
-                right: '-110px'
+                right: hide_right
             }, 200);
         });
         // append button to body

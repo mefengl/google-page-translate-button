@@ -16,3 +16,9 @@
 ## ⛵️ 调用谷歌页面翻译
 
 <img src="https://greasyfork.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd2xrQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--55d4317d55ce80add9678ca08b772a2c9035b75d/%E8%84%9A%E6%9C%AC-%E7%BF%BB%E8%AF%91%E5%90%8E.png?locale=zh-CN" width="400"/>
+
+## 声明 👀
+
+> 🎈 本脚本只是添加了一个按钮（所以不会拖慢加载速度），点击按钮后，通过改变`网页链接`为`谷歌网页翻译的链接`来达到翻译网页的效果（所以不会经过个人服务器收集信息）
+
+> 📝 本项目[google-page-translate-button](https://github.com/mefengl/google-page-translate-button)开源，欢迎在 GitHub 提 issue，优化代码

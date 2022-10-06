@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      1.2.7
+// @version      1.2.8
 // @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl
 // @match        http://*/*
@@ -39,7 +39,11 @@
             window.location.href = url;
         });
         // set button style
-        const hide_right = "-120px";
+        let hide_right = "-120px";
+        // if title contains Chinese, then make button less visible
+        if (document.title.match(/[\u4e00-\u9fa5]/)) {
+            hide_right = "-130px";
+        }
         $button.css({
             'position': 'fixed',
             'width': '140px',
@@ -53,7 +57,8 @@
             'border-radius': '4px',
             'padding': '10px 16px',
             'font-size': '18px',
-            'cursor': 'pointer'
+            'cursor': 'pointer',
+            "textShadow": "1px 1px 2px black",
         });
         // hover to show, and hide when not hover
         $button.hover(function () {

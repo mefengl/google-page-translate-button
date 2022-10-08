@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      1.2.11
+// @version      1.2.12
 // @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl
 // @match        http://*/*
@@ -21,7 +21,9 @@
         if (origin.endsWith('.translate.goog')) {
             return;
         }
-        // change '.' in url to '-'
+        // change '-' in origin to '--'
+        origin = origin.replace(/-/g, '--');
+        // change '.' in origin to '-'
         origin = origin.replace(/\./g, '-');
         // append '.translate.goog' to origin
         origin = origin + '.translate.goog';

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      1.2.12
+// @version      1.2.14
 // @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl
 // @match        http://*/*
@@ -28,12 +28,18 @@
         // append '.translate.goog' to origin
         origin = origin + '.translate.goog';
 
-        let pathname = window.location.pathname;
-        // append '?_x_tr_sl=auto&_x_tr_tl=zh-CN' to pathname
-        pathname = pathname + '?_x_tr_sl=auto&_x_tr_tl=zh-CN';
+        const pathname = window.location.pathname;
 
-        // combine origin and pathname
-        let url = origin + pathname;
+        let search = window.location.search;
+        // combine '?_x_tr_sl=auto&_x_tr_tl=zh-CN' and search
+        if (search) {
+            search = search + '&_x_tr_sl=auto&_x_tr_tl=zh-CN';
+        } else {
+            search = '?_x_tr_sl=auto&_x_tr_tl=zh-CN';
+        }
+
+        // combine origin, pathname and search
+        let url = origin + pathname + search;
 
         // create a button
         const $button = $('<button>翻译网页</button>');

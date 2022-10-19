@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      1.2.14
+// @version      1.2.15
 // @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl
 // @match        http://*/*
@@ -67,7 +67,6 @@
             'padding': '10px 16px',
             'font-size': '18px',
             'cursor': 'pointer',
-            "textShadow": ".2px .2px .5px black",
         });
         // hover to show, and hide when not hover
         $button.hover(function () {

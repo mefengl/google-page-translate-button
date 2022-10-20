@@ -8,6 +8,7 @@
 <a href="https://greasyfork.org/zh-CN/scripts/452478/stats"> <img src="https://img.shields.io/greasyfork/dt/452478"/> </a>
 
  一个按钮的事，一点都不费事
+ > [安装地址](https://greasyfork.org/zh-CN/scripts/452478)
 
 ## 🍙 右上角翻译按钮，会自动展开
 

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      1.3.0
+// @version      1.3.1
 // @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl
 // @match        http://*/*
@@ -18,11 +18,15 @@
     $(function () {
         let origin = window.location.origin;
         // if origin end with '.translate.goog'
-        // move down the body and header
         // then return
         if (origin.endsWith('.translate.goog')) {
+            // move down the body and header
             $("body").css({ "padding-top": "40px" });
             $("header").css({ position: "fixed", top: 40 });
+            // TODO: Auto hide the header
+            // scroll down to hide the header
+            // scroll up to show the header
+            // because two header is too much...
             return;
         }
         // change '-' in origin to '--'

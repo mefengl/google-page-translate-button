@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      1.3.3
+// @version      1.3.4
 // @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl
 // @match        http://*/*
@@ -22,8 +22,8 @@
         if (origin.endsWith('.translate.goog')) {
             // TODO: This should be an option that can be turned on
             // move down the body and header
-            $("body").css({ "padding-top": "56px" });
-            $("header").css({ position: "fixed", top: 56 });
+            // $("body").css({ "padding-top": "56px" });
+            // $("header").css({ position: "fixed", top: 56 });
             // TODO: Auto hide the header
             // scroll down to hide the header
             // scroll up to show the header

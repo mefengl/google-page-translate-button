@@ -7,8 +7,9 @@
 <a href="https://greasyfork.org/zh-CN/scripts/452478/stats"> <img src="https://img.shields.io/greasyfork/dd/452478"/> </a>
 <a href="https://greasyfork.org/zh-CN/scripts/452478/stats"> <img src="https://img.shields.io/greasyfork/dt/452478"/> </a>
 
- 一个按钮的事，一点都不费事
- > [安装地址](https://greasyfork.org/zh-CN/scripts/452478)
+一个按钮的事，一点都不费事
+
+> [安装地址](https://greasyfork.org/zh-CN/scripts/452478)
 
 ## 🍙 右上角翻译按钮，会自动展开
 
@@ -17,6 +18,12 @@
 ## 🍞 调用谷歌页面翻译
 
 <img src="https://greasyfork.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd2xrQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--55d4317d55ce80add9678ca08b772a2c9035b75d/%E8%84%9A%E6%9C%AC-%E7%BF%BB%E8%AF%91%E5%90%8E.png?locale=zh-CN" width="400"/>
+
+## 💨 也许更好
+
+> 本脚本有一些网站无法正常使用
+
+> 建议改用 https://greasyfork.org/zh-CN/scripts/398746
 
 ## 声明 👀
 

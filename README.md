@@ -23,7 +23,7 @@
 
 > 本脚本有一些网站无法正常使用
 
-> 建议改用 https://greasyfork.org/zh-CN/scripts/398746
+> 可以改用或一起用 https://greasyfork.org/zh-CN/scripts/398746
 
 ## 声明 👀
 

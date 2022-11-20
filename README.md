@@ -16,7 +16,7 @@
 
 > 本脚本有一些网站无法正常使用
 
-> 可以改用或同用 https://greasyfork.org/zh-CN/scripts/424966
+> 可以改用或同用 https://greasyfork.org/zh-CN/scripts/424966 ，这个脚本配合快捷键，非常好用
 
 ## 🍙 右上角翻译按钮，会自动展开
 

@@ -17,8 +17,12 @@
 > 本脚本有一些网站无法正常使用
 
 > 可以改用：
+
 > https://github.com/immersive-translate/immersive-translate ，是个插件，可以提供对照阅读，推荐🥰
-> https://greasyfork.org/zh-CN/scripts/424966 ，这个脚本配合快捷键，非常好用
+
+> 或者：
+
+> https://greasyfork.org/zh-CN/scripts/424966 ，这个脚本配合快捷键，很方便
 
 ## 🍙 右上角翻译按钮，会自动展开
 

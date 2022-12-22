@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      1.3.9
+// @version      1.3.10
 // @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl
 // @match        http://*/*
@@ -73,20 +73,10 @@
     // hover to show, and hide when not hover
     $button.hover(
       function () {
-        $(this).stop().animate(
-          {
-            right: "-10px",
-          },
-          200
-        );
+        $(this).stop().animate( { right: "-10px", }, 400);
       },
       function () {
-        $(this).stop().animate(
-          {
-            right: hide_right,
-          },
-          200
-        );
+        $(this).stop().animate( { right: hide_right, }, 400);
       }
     );
     // append button to body

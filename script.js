@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      2.0.0
+// @version      2.0.1
 // @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl
 // @match        http://*/*
@@ -25,7 +25,7 @@
       ? "-130px"
       : "-120px";
     // create the button
-    $("<button>翻译网页</button>")
+    const $button = $("<button>翻译网页</button>")
       .click(function () {
         window.location.href = `https://translate.google.com/translate?sl=auto&tl=zh-CN&u=${window.location.href}`;
       })
@@ -36,5 +36,10 @@
         function () { $(this).stop().animate({ right: hide_right, }, 400); }
       )
       .appendTo("body");
+
+    // hide button if full screen
+    $(document).on("fullscreenchange", function () {
+      document.fullscreenElement ? $button.hide() : $button.show();
+    });
   });
 })();

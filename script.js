@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      2.0.1
+// @version      2.0.2
 // @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl
 // @match        http://*/*
 // @match        https://*/*
 // @exclude      https://edition.cnn.com/
 // @exclude      https://www.baidu.com/
+// @exclude      https://bbs.jjwxc.net/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=translate.google.com
 // @require      https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js
 // @grant        none

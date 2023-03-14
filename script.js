@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      2.1.0
+// @version      2.1.1
 // @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl & zyb19981014
 // @match        http://*/*

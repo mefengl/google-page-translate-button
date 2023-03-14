@@ -1,11 +1,13 @@
 # 🍓 谷歌网页翻译
 
-<a href="https://weibo.com/u/7752747770"> <img src="https://img.shields.io/badge/Weibo-微博-orange"/> </a>
 <a href="https://github.com/mefengl/google-page-translate-button"> <img src="https://img.shields.io/github/stars/mefengl/google-page-translate-button?style=social"/> </a>
-<a href="https://opensource.org/licenses/MIT"> <img src="https://img.shields.io/greasyfork/l/420774?color=&label=License"/> </a>
+[![Follow @mefengl on GitHub](https://img.shields.io/github/followers/mefengl?label=Follow%20%40mefengl&style=social "GitHub")](https://github.com/mefengl)
+[![Follow @ZhangYiBo1998 on GitHub](https://img.shields.io/github/followers/ZhangYiBo1998?label=Follow%20%40ZhangYiBo1998&style=social "GitHub")](https://github.com/ZhangYiBo1998)
 
 <a href="https://greasyfork.org/zh-CN/scripts/452478/stats"> <img src="https://img.shields.io/greasyfork/dd/452478"/> </a>
 <a href="https://greasyfork.org/zh-CN/scripts/452478/stats"> <img src="https://img.shields.io/greasyfork/dt/452478"/> </a>
+
+<a href="https://opensource.org/licenses/MIT"> <img src="https://img.shields.io/greasyfork/l/420774?color=&label=License"/> </a>
 
 一个按钮的事，一点都不费事
 
@@ -14,7 +16,7 @@
 
 ## 💨 也许更好
 
-> 本脚本有一些网站无法正常使用
+> 本脚本有一些网站无法正常使用 (感谢 @ZhaoYiBo1998 这一点可能修复了)
 
 > 可以改用：
 

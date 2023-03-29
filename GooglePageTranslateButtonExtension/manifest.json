@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "谷歌网页翻译",
+    "description": "一款用于翻译网页的扩展程序",
+    "version": "1.0",
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "64": "icon64.png",
+        "128": "icon128.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "32": "icon32.png",
+            "48": "icon48.png",
+            "64": "icon64.png",
+            "128": "icon128.png"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "https://translate.google.com/*"
+    ],
+    "browser_specific_settings": {
+        "edge": {
+            "browser_action_next_to_addressbar": true
+        }
+    }
+}

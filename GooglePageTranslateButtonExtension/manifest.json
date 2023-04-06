@@ -1,6 +1,6 @@
 {
-    "manifest_version": 2,
-    "name": "谷歌网页翻译",
+    "manifest_version": 3,
+    "name": "🍓 谷歌网页翻译",
     "description": "一款用于翻译网页的扩展程序",
     "version": "1.0",
     "icons": {
@@ -10,7 +10,7 @@
         "64": "icon64.png",
         "128": "icon128.png"
     },
-    "browser_action": {
+    "action": {
         "default_popup": "popup.html",
         "default_icon": {
             "16": "icon16.png",
@@ -23,11 +23,9 @@
     "permissions": [
         "activeTab",
         "tabs",
-        "https://translate.google.com/*"
+        "scripting"
     ],
-    "browser_specific_settings": {
-        "edge": {
-            "browser_action_next_to_addressbar": true
-        }
-    }
+    "host_permissions": [
+        "https://translate.google.com/*"
+    ]
 }

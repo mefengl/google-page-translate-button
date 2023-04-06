@@ -16,10 +16,12 @@ document.addEventListener('DOMContentLoaded', function () {
                  * 如果用户选择 "直接跳转翻译"，我们通过 chrome.tabs.executeScript() 将 Google 翻译页面注入到当前页面中。
                  * 如果直接使用'chrome.tabs.update()'方法，则无法使用浏览器后退回到原页面
                  */
-                chrome.tabs.executeScript({
-                    code: `
-                      window.location.href = 'https://translate.google.com/translate?sl=auto&tl=zh-CN&u=${currentUrl}';
-                    `
+                chrome.scripting.executeScript({
+                    target: { tabId: tabs[0].id },
+                    func: function (currentUrl) {
+                        window.location.href = 'https://translate.google.com/translate?sl=auto&tl=zh-CN&u=' + currentUrl;
+                    },
+                    args: [currentUrl] // 传递给 func 的参数
                 }, function () {
                     window.close();// 关闭popup弹窗
                 });

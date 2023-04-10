@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         谷歌网页翻译
+// @name         网页翻译
 // @namespace    https://github.com/mefengl
 // @version      2.1.2
 // @description  🍓 一个按钮的事，一点都不费事

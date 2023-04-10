@@ -1,4 +1,4 @@
-# 🍓 谷歌网页翻译
+# 🍓 网页翻译
 
 <a href="https://github.com/mefengl/google-page-translate-button"> <img src="https://img.shields.io/github/stars/mefengl/google-page-translate-button?style=social"/> </a>
 [![Follow @mefengl on GitHub](https://img.shields.io/github/followers/mefengl?label=Follow%20%40mefengl&style=social "GitHub")](https://github.com/mefengl)

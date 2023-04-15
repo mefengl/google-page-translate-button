@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         谷歌网页翻译
 // @namespace    https://github.com/mefengl
-// @version      2.1.1
+// @version      2.1.2
 // @description  🍓 一个按钮的事，一点都不费事
 // @author       mefengl & zyb19981014
 // @match        http://*/*
@@ -37,6 +37,7 @@
     button.style.padding = "10px 16px";
     button.style.fontSize = "18px";
     button.style.cursor = "pointer";
+    button.style.transition = "right 0.3s";
     document.body.appendChild(button);
 
     // hover to show, and hide when not hover

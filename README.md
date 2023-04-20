@@ -1,4 +1,4 @@
-# 🍓 谷歌网页翻译
+# 🍓 网页翻译
 
 <a href="https://github.com/mefengl/google-page-translate-button"> <img src="https://img.shields.io/github/stars/mefengl/google-page-translate-button?style=social"/> </a>
 [![Follow @mefengl on GitHub](https://img.shields.io/github/followers/mefengl?label=Follow%20%40mefengl&style=social "GitHub")](https://github.com/mefengl)
@@ -13,6 +13,13 @@
 
 > [安装地址](https://greasyfork.org/zh-CN/scripts/452478)
 
+## 2023/3/29——chrome拓展更新 @ZhangYiBo1998
+
+在使用油猴脚本版本的时候，如果原网页包含iframe，有时会出现多个按钮，所以这次更新了chrome拓展版本。但是因为我注册chrome和edge开发者帐号都失败了，所以无法上传商店，只能自己通过添加解压缩拓展的方式安装。
+
+因为我是第一次编写chrome拓展，所以本拓展是在chatgpt的帮助下完成的，如有问题欢迎指正。
+
+Chrome Extension 安装页面: [🍓 网页翻译](https://chrome.google.com/webstore/detail/%F0%9F%8D%93-%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91/kgjflbnfgjejlokhfiobjeaeeiciidic)
 
 ## 💨 也许更好
 

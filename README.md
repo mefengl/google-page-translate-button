@@ -1,3 +1,4 @@
+<!-- DO NOT REMOVE - contributor_list:data:start:["mefengl", "ZhangYiBo1998"]:end -->
 # 🍓 网页翻译
 
 <a href="https://github.com/mefengl/google-page-translate-button"> <img src="https://img.shields.io/github/stars/mefengl/google-page-translate-button?style=social"/> </a>
@@ -48,3 +49,15 @@ Chrome Extension 安装页面: [🍓 网页翻译](https://chrome.google.com/web
 > 🥰 正因为如此，本脚本不适合需要登录才能查看内容的网站，例如`Twitter`，建议使用[翻译机](https://greasyfork.org/zh-CN/scripts/378277)
 
 > 📝 本项目[google-page-translate-button](https://github.com/mefengl/google-page-translate-button)开源，欢迎在 GitHub 提 issue，优化代码
+
+<!-- prettier-ignore-start -->
+<!-- DO NOT REMOVE - contributor_list:start -->
+## 👥 Contributors
+
+
+- **[@mefengl](https://github.com/mefengl)**
+
+- **[@ZhangYiBo1998](https://github.com/ZhangYiBo1998)**
+
+<!-- DO NOT REMOVE - contributor_list:end -->
+<!-- prettier-ignore-end -->

@@ -1,15 +1,6 @@
 <!-- DO NOT REMOVE - contributor_list:data:start:["mefengl", "ZhangYiBo1998"]:end -->
 # 🍓 网页翻译
 
-<a href="https://github.com/mefengl/google-page-translate-button"> <img src="https://img.shields.io/github/stars/mefengl/google-page-translate-button?style=social"/> </a>
-[![Follow @mefengl on GitHub](https://img.shields.io/github/followers/mefengl?label=Follow%20%40mefengl&style=social "GitHub")](https://github.com/mefengl)
-[![Follow @ZhangYiBo1998 on GitHub](https://img.shields.io/github/followers/ZhangYiBo1998?label=Follow%20%40ZhangYiBo1998&style=social "GitHub")](https://github.com/ZhangYiBo1998)
-
-<a href="https://greasyfork.org/zh-CN/scripts/452478/stats"> <img src="https://img.shields.io/greasyfork/dd/452478"/> </a>
-<a href="https://greasyfork.org/zh-CN/scripts/452478/stats"> <img src="https://img.shields.io/greasyfork/dt/452478"/> </a>
-
-<a href="https://opensource.org/licenses/MIT"> <img src="https://img.shields.io/greasyfork/l/420774?color=&label=License"/> </a>
-
 一个按钮的事，一点都不费事
 
 > [安装地址](https://greasyfork.org/zh-CN/scripts/452478)
@@ -21,6 +12,18 @@
 因为我是第一次编写chrome拓展，所以本拓展是在chatgpt的帮助下完成的，如有问题欢迎指正。
 
 Chrome Extension 安装页面: [🍓 网页翻译](https://chrome.google.com/webstore/detail/%F0%9F%8D%93-%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91/kgjflbnfgjejlokhfiobjeaeeiciidic)
+
+## 🍉 2023/10/31——chrome扩展 AI页面翻译 @mefengl
+
+[*Doozy: AI made easy*, Waitlist](https://docs.google.com/forms/d/e/1FAIpQLSco0ORt6OejFDi04wat5ZzrOblHHEzu_qAswneexrQ4A60Xsw/viewform?usp=sf_link)
+
+这个实际上会是我的一些 Greasyfork 脚本进化的 Chrome 扩展，好奇的话可以先尝试下面的脚本，将来的 Chrome 扩展的体验会好很多：
+
+> if you prefer ChatGPT: [chatgpt-page-translate-button](https://greasyfork.org/scripts/464067)
+
+> if you prefer Claude: [claude-page-translate-button](https://greasyfork.org/scripts/471467)
+
+> if you prefer Bard: [bard-page-translate-button](https://greasyfork.org/scripts/471758)
 
 ## 💨 也许更好
 

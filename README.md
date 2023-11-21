@@ -15,15 +15,20 @@ Chrome Extension 安装页面: [🍓 网页翻译](https://chrome.google.com/web
 
 ## 🍉 2023/10/31——chrome扩展 AI页面翻译 @mefengl
 
-[*Doozy: AI made easy*, Waitlist](https://docs.google.com/forms/d/e/1FAIpQLSco0ORt6OejFDi04wat5ZzrOblHHEzu_qAswneexrQ4A60Xsw/viewform?usp=sf_link)
-
-这个实际上会是我的一些 Greasyfork 脚本进化的 Chrome 扩展，好奇的话可以先尝试下面的脚本，将来的 Chrome 扩展的体验会好很多：
-
 > if you prefer ChatGPT: [chatgpt-page-translate-button](https://greasyfork.org/scripts/464067)
 
 > if you prefer Claude: [claude-page-translate-button](https://greasyfork.org/scripts/471467)
 
 > if you prefer Bard: [bard-page-translate-button](https://greasyfork.org/scripts/471758)
+
+### if you prefer Extension: 
+
+🦜 Doozy: AI Made Easy
+
+[Chrome Extension | Chrome 扩展 | Chrome拡張機能](https://chromewebstore.google.com/detail/doozy-ai-made-easy/okifoaikfmpfcamplcfjkpdnhfodpkil)
+> Now it mainly does translation and summary work, but more features are under development, let's go!
+
+[Join Discord Server | 加入 Discord 讨论 | Discordのディスカッションに参加する](https://discord.gg/pwTKpnc2sF)
 
 ## 💨 也许更好
 
